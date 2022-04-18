@@ -10,17 +10,6 @@ namespace ITDevRisk
     {
         static void Main(string[] args)
         {
-            List<string> teste =
-                new List<string>()
-                {
-                    "12/11/20200",
-                    "4",
-                    "2000000 Private 12/29/2025",
-                    "400000 Public 07/01/2020",
-                    "5000000 Public 01/02/2024",
-                    "3000000 Public 10/26/2023"
-                };
-
             List<string> tradePortfolio = new List<string>();
 
             Console.WriteLine("Please input the reference date (MM/dd/yyyy): ");
